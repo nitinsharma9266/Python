@@ -511,41 +511,30 @@ Projects :b4, after b3,20d
 ```mermaid
 requirementDiagram
 
-requirement Python
+requirement Python {
+    id: 1
+    text: Install Python
+    risk: low
+    verifymethod: test
+}
 
-id:1
+requirement VSCode {
+    id: 2
+    text: Install VS Code
+    risk: low
+    verifymethod: test
+}
 
-text:Install Python
-
-risk:low
-
-verifymethod:test
-
-requirement VSCode
-
-id:2
-
-text:Install VS Code
-
-risk:low
-
-verifymethod:test
-
-requirement Git
-
-id:3
-
-text:Install Git
-
-risk:low
-
-verifymethod:test
+requirement Git {
+    id: 3
+    text: Install Git
+    risk: low
+    verifymethod: test
+}
 
 Python - satisfies -> VSCode
-
 VSCode - satisfies -> Git
 ```
-
 ---
 
 # 🎯 Learning Priorities
