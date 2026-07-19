@@ -1,0 +1,25 @@
+
+'''with open("log.html","r") as f:
+    data=f.read()
+    if("python" in data):
+        print("true")
+
+    else:
+        print("false")
+
+'''
+
+with open("log.txt") as f:
+    lines = f.readlines()
+
+lineno=1
+for line in lines:
+    if("python" in line):
+        print(f"yes python is present. line no :{lineno}")
+        break
+    lineno+=1
+        
+else:
+    print("no python present.")        
+
+    

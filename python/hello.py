@@ -1,0 +1,10 @@
+'''
+b=5.6
+sum=a+b
+print(sum)
+print(type(sum))
+'''
+a=4
+b=7
+sum=float(a)+b
+print(sum)
