@@ -7,6 +7,7 @@ with open(file_name,"w+") as file:
     print("file content after writting ")
     print(content)"""
     
+
 with open(file_name,"r") as file:
     print("veriefied content this file")
     print(file.read())
